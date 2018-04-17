@@ -1,0 +1,25 @@
+package com.gridsum.de.impala
+
+object FeaturesTableColumnNames {
+  val QueryID = "id"
+  val ClusterType = "cluster"
+  val Pool = "pool"
+  val User = "user"
+  val Day = "day"
+  val SetMem = "setMemMB"
+  val UsedMemInMB = "useMemMB"
+  val maxLayer = "mLayer"
+  val maxFiles = "mFiles"
+  val maxSize = "mSize"
+  val events = "events"
+  val AggregateCount = "agg"
+  val ExchangeCount = "exg"
+  val AnalyticCount = "alt"
+  val SelectCount = "select"
+  val HashJoinCount = "hjoin"
+  val NestedLoopJoinCount = "ljoin"
+  val ScanHdfsCount = "scan"
+  val TopNCount = "top"
+  val SortCount = "sort"
+  val UnionCount = "union"
+}

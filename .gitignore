@@ -1,0 +1,10 @@
+.idea
+memory/model/model_dir/
+memory/model/temp_dir/
+fex/target/
+doc/
+target/
+*-site.xml
+*.iml
+*.pyc
+*.csv
