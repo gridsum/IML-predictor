@@ -6,12 +6,14 @@ which are used to predict memory for new comming impala queries.
 # 2. Installation
 ## 2.1. Dependencies
 #### System dependencies: 
- - Impala(2.9.0-cdh5.12.1 or 2.5.0-cdh5.7.2)
+ - Impala(>=impala-2.5.0+cdh5.7.2)
  - Python(>=3.5)
  - Scala(>=2.10.1)
 
+**Important: Testing OK on CDH 5.7.2 and 5.12.1, other versions are not guaranteed to be available.**
+
 #### Project dependencies:
- - impala-toolbox/data-divertor
+ - https://github.com/gridsum/IQD-divertor
 
 ## 2.2. Install
 ```
