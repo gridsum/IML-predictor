@@ -15,8 +15,8 @@ which are used to predict memory for new comming impala queries.
 
 ## 2.2. Install
 ```
-git clone git@gitlab.gridsum.com:data-engineering/impala-toolbox/iml-predictor.git
-cd iml-predictor
+git clone https://github.com/gridsum/IML-predictor.git
+cd IML-predictor
 sudo apt-get -y install --no-install-recommends \`cat depend_ubuntu\`
 python3 -m pip install -r depend_pip3
 ```
