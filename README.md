@@ -13,7 +13,7 @@ which are used to predict memory for new comming impala queries.
 **Important: Testing OK on CDH 5.7.2 and 5.12.1, other versions are not guaranteed to be available.**
 
 #### Project dependencies:
- - https://github.com/gridsum/IQD-divertor
+ - [IQD-divertor](https://github.com/gridsum/IQD-divertor)
 
 ## 2.2. Install
 ```
