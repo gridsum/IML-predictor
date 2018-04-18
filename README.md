@@ -61,7 +61,7 @@ python -m memory.server
 # 3. Tutorials & Documentation
 
 ## 3.1. Building Models
-If your local server can not run spark application, set memory/model/settings.py SparkSubmit.LOCAL=False   
+If your local server can not run spark application, set [memory/model/settings.py](./memory/model/settings.py) SparkSubmit.LOCAL=False   
 and make sure you have execute spark.sh shell script on spark node before building Models.
 
 ```
