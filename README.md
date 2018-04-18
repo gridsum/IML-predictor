@@ -29,7 +29,7 @@ python3 -m pip install -r depend_pip3
 IML-Predictor is depend on impala-toolbox/data-divertor, which collects queries' details from Cloudera Manager API.  
 you need to deploy data-divertor in your hadoop cluster and keep it running. 
 
-**features** is the scala application for collecting Impala queries and their details, package and upload to spark node
+**features** is the spark application for collecting Impala queries and their details, package and upload to spark node
 ```
 cd features
 mvn clean package
